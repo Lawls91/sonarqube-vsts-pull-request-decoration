@@ -1,4 +1,4 @@
-# sonarqube-pull-request-decoration
+# sonarqube-vsts-pull-request-decoration
 
 To use this, use something similar to the following in your VSTS YAML pipeline
 
