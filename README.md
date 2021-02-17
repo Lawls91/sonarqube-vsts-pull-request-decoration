@@ -8,7 +8,6 @@ To use this, use something similar to the following in your VSTS YAML pipeline
   inputs:
     filePath: './build/scripts/sonarqube-pr-decoration.ps1'
     arguments: '-SonarKey "$(sonarKey)" -SonarName "$(sonarName)"'
-  condition: and(succeeded(), eq(variables['performStaticAnalysis'], 'true'))
   env:
     SYSTEM_ACCESSTOKEN: $(System.AccessToken)
 ```
