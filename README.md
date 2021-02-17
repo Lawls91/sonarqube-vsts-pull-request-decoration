@@ -1,4 +1,4 @@
-# sonarqube-vsts-pull-request-decoration
+# sonarqube-vsts-pull-request-decoration [WIP]
 
 To use this, use something similar to the following in your VSTS YAML pipeline
 
@@ -11,3 +11,8 @@ To use this, use something similar to the following in your VSTS YAML pipeline
   env:
     SYSTEM_ACCESSTOKEN: $(System.AccessToken)
 ```
+
+Also replace "{YOUR_VSTS_ORG_NAME}" & "{YOUR_SONARQUBE_URL}" with their appropriate values
+
+Todo:
+* Remove the previous comment when the PR build is reran
